@@ -1,0 +1,106 @@
+body {
+  background-image: url("http://southerngaragebands.com/Aero_Woods.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: Arial;}
+ 
+.boxStyle {
+    background-color: rgba(255, 255, 255, .9);
+    border: 5px solid rgba(5, 5, 5, .7);
+    border-radius: 30px;
+    color: rgba(5, 5, 5, .7);
+}
+
+.woods {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px, 20px, 0px, 20px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border: 5px solid rgba(5, 5, 5, .7);
+  display: center;}
+
+.wrapper {
+  margin: auto;
+  width: 1020px;
+}
+
+.details {
+  border-radius: 30px;
+  height: 550px;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+  float: left;
+  text-align: center;
+}
+
+ 
+h1 {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 0px;
+  color: rgba(5, 5, 5, .7);}
+ 
+p {
+  font-size: 20px;
+  margin: 0px;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+ 
+section h2 {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;}
+ 
+table, th, tr, td{
+  table-layout: fixed;
+  border-spacing: .25em;
+  border: none;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid black;
+  text-align: center;}
+
+img, label, input, button  {
+  border-radius: 8px;
+}
+ 
+ 
+label {
+  display: block;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font: 20px Arial;}
+ 
+input {
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  font: 12px Arial;
+  background-color: white;
+  text-align: center;
+}
+
+aside { 
+  clear: both;
+  height: 200px; }
+
+button, #submit{
+  border: none;
+  background-color: black;
+  color: white;
+  display: center;
+  margin: auto;
+  font-size: 15px;
+}
+
