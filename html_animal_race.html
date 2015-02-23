@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Animal Race</title>
+    <link rel="stylesheet" href="animal_main.css" />
+  </head> 
+ <body>
+  <div class="wrapper">
+    <section class="woods boxStyle">
+      <h1>Woodland Race</h1>
+        <h2></h2>
+        </section>
+       
+        <section class="details boxStyle">
+          <h1>Place Your Bet</h1>
+            <p>We have several phenomenal animals entering the race today. Review the tables and place your bet!</p>
+            
+            <table>  
+              <thead>
+                <tr>
+                  <th> Racer </th>
+                  <th> Name </th>
+                  <th> Focus (1-10) </th>
+                  <th> Speed (mph) </th>
+                  <th> Bet </th>
+                  <th> Wins </th>
+                </tr>
+              </thead>
+              
+              <tbody>
+              <tr>
+                <td> <img src="http://www.ecology.com/wp-content/uploads/2012/05/eastern-box-turtle.jpg" width="120em" height="100em"/> </td>
+                <th> Rocky </td>
+                <td> 8 </td>
+                <td> 2 </td>  
+                <td> <button id="betRocky"> BET </button> </td>
+                <td id= "rockyWins">  </td>
+              </tr>
+              
+              <tr>
+                <td><img src="http://www.depi.vic.gov.au/__data/assets/image/0005/182390/rabbit_img1.jpg" width="80em" height="100em"/></td>
+                <th> Achilles </th>
+                <td> 2 </td>
+                <td> 8 </td>
+                <td> <button id="betAchilles"> BET </button> </td>
+                <th id= "achillesWins"> </th>
+              </tr>
+
+             <tr id ="userStats">
+              <td><width="80em" height="100em" id="userTablePic"/></td>
+              <th id="userTableName">  </td>
+              <td id="userTableSpeed">  </td>
+              <td id="userTableFocus">  </td>
+              <td id="betUser"> <button> BET </button> </td>
+              <td id="userWins"> </td>
+            </tr>
+            </table>
+        <!--   </tbody> -->
+        </section>
+       
+        <section class="details boxStyle">
+          <h1>Enter the Race</h1>
+            <p>Want to see how you stack up against the animals of the 100 Acre Woods? Enter the race here!</p>
+            <section>
+              <label> Name </label>
+                <input type="text" id="userAnimalName" placeholder="Enter race name here" />
+              <label>  Focus </label>
+                <input type="integer" id="userAnimalFocus" placeholder="Enter focus here" />
+              <label> Speed </label>
+                <input type="integer" id="userAnimalSpeed" placeholder="Enter speed (mph) here"/>
+                  <br>
+                <input type="submit" value="Enter me in the race!" id="submit"/>
+                  <br>
+                <button id="startRace">Start Race</button>
+              </section>
+         </section>
+      </section>
+      <aside class="woods boxStyle">
+      </aside>
+    </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+   <script type="text/javascript" src="animal_script.js"> 
+  </script> 
+ </body>
+<html>
